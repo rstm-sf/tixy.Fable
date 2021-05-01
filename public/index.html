@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=400, user-scalable=no" />
+    <meta name="theme-color" content="#000000" />
+    <title>(t,i,x,y) => "creative code golfing"</title>
+    <meta name="description" content="A clone of tixy.land in Fable.">
+    <link rel="stylesheet" href="styles.css" inline="inline" />
+    <link rel="shortcut icon" href="fable.ico" />
+</head>
+<body>
+<canvas id="output"></canvas>
+
+<form id="editor">
+    <div id="comment">
+        <label class="first" for="input">// tixy - creative code golfing</label>
+        <label class="second" for="input">// click the dots for more info</label>
+        <label class="limit-warning" for="input">// use 32 characters or less</label>
+    </div>
+
+    <label id="label" for="input">(t,i,x,y) =></label>
+    <input name="code" id="input" type="text" value="Math.sin(y/8+t)" autocomplete="off" autocapitalize="off" spellcheck="false" autocorrect="off" enterkeyhint="go"/>
+</form>
+
+<script src="./bundle.js" inline="inline"></script>
+</body>
+</html>

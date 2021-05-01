@@ -1,0 +1,14 @@
+.idea/
+.vscode/
+.vs/
+
+bin/
+obj/
+
+*.user
+
+node_modules
+
+public/bundle.js*
+.fable/
+src/*.js
